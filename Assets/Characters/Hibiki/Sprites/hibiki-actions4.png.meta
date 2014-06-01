@@ -1,0 +1,2650 @@
+fileFormatVersion: 2
+guid: 4e8608a68a82cf744abc834cf2dffcbf
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: hibiki-actions4_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4209
+        width: 72
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 4209
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 4210
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 4209
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_4
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 4209
+        width: 101
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_5
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 4209
+        width: 94
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_6
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 4209
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_7
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 4209
+        width: 94
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_8
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 4209
+        width: 94
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_9
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 4209
+        width: 105
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_10
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 4209
+        width: 126
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 4088
+        width: 117
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 4088
+        width: 171
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4088
+        width: 168
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_14
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 4088
+        width: 166
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_15
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 4088
+        width: 168
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_16
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 4088
+        width: 175
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3959
+        width: 203
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 3961
+        width: 206
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_19
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 3960
+        width: 204
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_20
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 3961
+        width: 183
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_21
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 3965
+        width: 161
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_23
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 3962
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_25
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3837
+        width: 112
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 3837
+        width: 71
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_27
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 3837
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_28
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 3837
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_29
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3837
+        width: 71
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_30
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 3837
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_31
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 3837
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_32
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 3712
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_33
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 3704
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_42
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 3718
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_47
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 3729
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_48
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3729
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_49
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 3730
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_50
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 3730
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_51
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 3727
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_52
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3725
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_53
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3725
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_65
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3537
+        width: 63
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_66
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3537
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_67
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 3537
+        width: 67
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_68
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 3537
+        width: 92
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_69
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 3537
+        width: 99
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_70
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 3537
+        width: 103
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_71
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 3537
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_72
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 3537
+        width: 74
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_73
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 3537
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_74
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 3537
+        width: 108
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_75
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 3537
+        width: 94
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_76
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 3537
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_77
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3428
+        width: 72
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_78
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 3428
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_79
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3428
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_80
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3428
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_81
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3283
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_82
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 3283
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_83
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 3283
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_84
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3283
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_85
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 3283
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_86
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 3283
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_87
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 3283
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_88
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 3283
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_89
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3283
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_90
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 3283
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_91
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 3283
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_92
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 3283
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_93
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 3283
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_94
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3138
+        width: 70
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_95
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3138
+        width: 76
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_96
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3138
+        width: 85
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_97
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 3138
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_98
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3138
+        width: 85
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_99
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 3138
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_100
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 3138
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_101
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 3138
+        width: 95
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_102
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 3138
+        width: 84
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_103
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 3138
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_104
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 3138
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_105
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 3138
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_106
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3028
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_107
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 3028
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_108
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3028
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_109
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3028
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_110
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2878
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_111
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2878
+        width: 159
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_112
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2878
+        width: 159
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_113
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2878
+        width: 159
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_114
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 2878
+        width: 159
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_115
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2878
+        width: 159
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_116
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 2878
+        width: 159
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_117
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2719
+        width: 163
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_118
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2719
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_119
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 2716
+        width: 164
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_120
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2720
+        width: 162
+        height: 138
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_121
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2719
+        width: 163
+        height: 138
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_123
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2719
+        width: 177
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_124
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 2719
+        width: 102
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_125
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2608
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_126
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2608
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_127
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2608
+        width: 78
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_128
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 2608
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_129
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2608
+        width: 72
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_130
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2452
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_131
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2452
+        width: 139
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_132
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2452
+        width: 168
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_133
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2452
+        width: 168
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_134
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 2452
+        width: 92
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_135
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 2452
+        width: 88
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_136
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2452
+        width: 105
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_137
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 2452
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_138
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2452
+        width: 78
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_139
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 2452
+        width: 72
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_140
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2295
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_141
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 2295
+        width: 73
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_142
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2295
+        width: 75
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_143
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2295
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_144
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 2295
+        width: 75
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_145
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2295
+        width: 73
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_146
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2295
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_147
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 2295
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_148
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2150
+        width: 72
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_149
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2150
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_150
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2151
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_151
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2150
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_153
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2150
+        width: 93
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_154
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2150
+        width: 94
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_155
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2150
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_156
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 2150
+        width: 94
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_157
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2150
+        width: 94
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_158
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2150
+        width: 98
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_159
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 2150
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2040
+        width: 81
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_161
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2040
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_162
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2040
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_163
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2040
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_164
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 2040
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_165
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 2040
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_166
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2040
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_167
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1900
+        width: 65
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_168
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1900
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_169
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1900
+        width: 64
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_170
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1900
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_171
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1900
+        width: 64
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_172
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1900
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_173
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1900
+        width: 69
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_174
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1900
+        width: 69
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_175
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1900
+        width: 65
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_176
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1900
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_177
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1757
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_178
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1757
+        width: 44
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_179
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1757
+        width: 38
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_180
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1757
+        width: 36
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_181
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1757
+        width: 36
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_182
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1757
+        width: 39
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_183
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1757
+        width: 48
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_184
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1757
+        width: 44
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_185
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1757
+        width: 38
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_186
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1757
+        width: 39
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_187
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1757
+        width: 36
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_188
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1756
+        width: 36
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_189
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1757
+        width: 38
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_190
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1757
+        width: 44
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_191
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1757
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_192
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1757
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_227
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1410
+        width: 73
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_228
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1410
+        width: 76
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_229
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1410
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_230
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1410
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_231
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1410
+        width: 94
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_232
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1410
+        width: 117
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_233
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1410
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_234
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1410
+        width: 92
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_235
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1410
+        width: 92
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_236
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1410
+        width: 92
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_237
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1411
+        width: 92
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_238
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1305
+        width: 117
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_239
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1305
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_240
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1305
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_241
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1305
+        width: 86
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_242
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1305
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_243
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1305
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_244
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1305
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_245
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1305
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_246
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1305
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_247
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1305
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_248
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1305
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_249
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1305
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_250
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1192
+        width: 72
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_251
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1192
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_254
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1170
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_255
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1178
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_256
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1178
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_257
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1179
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_258
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1183
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_259
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1158
+        width: 83
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_260
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1150
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_262
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1171
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_264
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1188
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_265
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1188
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_266
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1189
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_270
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1137
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_272
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1113
+        width: 201
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_273
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1011
+        width: 126
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_275
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1022
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_276
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1018
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_277
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1017
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_278
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1082
+        width: 240
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_280
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1061
+        width: 254
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_282
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1006
+        width: 121
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_283
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1042
+        width: 236
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_284
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1026
+        width: 179
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_287
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 890
+        width: 102
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_288
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 895
+        width: 167
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_289
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 904
+        width: 181
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_290
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 905
+        width: 190
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_291
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 899
+        width: 196
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_292
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 882
+        width: 63
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_293
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 857
+        width: 102
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_294
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 829
+        width: 167
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_295
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 822
+        width: 181
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_296
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 800
+        width: 196
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_297
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 872
+        width: 63
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_306
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 692
+        width: 205
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_308
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 690
+        width: 217
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_310
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 691
+        width: 228
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_312
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 692
+        width: 224
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_315
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 559
+        width: 240
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_316
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 510
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_317
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 510
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_318
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 510
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_319
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 510
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_320
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 510
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_321
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 510
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_322
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 510
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_323
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 510
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_324
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 388
+        width: 133
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_325
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 388
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_326
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 388
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_327
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 388
+        width: 97
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_328
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 388
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_329
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 388
+        width: 125
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_330
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 388
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_331
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 388
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_332
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 388
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_333
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 388
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_334
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 267
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_335
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 267
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_336
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 267
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_337
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 267
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_338
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 126
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_339
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 126
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_340
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 126
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_341
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 126
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_342
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 126
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_343
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 126
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_344
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 126
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_345
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 115
+        width: 96
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_346
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 126
+        width: 125
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_348
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 126
+        width: 93
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_350
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_351
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_352
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_353
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_354
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_355
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_356
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 0
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_357
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 0
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_358
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 0
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_359
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 0
+        width: 78
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_360
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 0
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_345
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1097
+        width: 213
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_346
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1010
+        width: 161
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_334
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 815
+        width: 196
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_329
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1581
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_324
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1584
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_320
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1565
+        width: 130
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_305
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1566
+        width: 154
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_306
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1566
+        width: 145
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_307
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1558
+        width: 143
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_285
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3688
+        width: 114
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_286
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 3689
+        width: 108
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_287
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 3689
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_288
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 3690
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_289
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 3698
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_287
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 510
+        width: 82
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_287
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 126
+        width: 100
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: hibiki-actions4_288
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
