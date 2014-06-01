@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour {
 
 	public string HorizontalAxis;
 	public string VerticalAxis;
+	
+	public float jumpForce;
 
 	public int attackChargeDelay;
 
@@ -32,6 +34,11 @@ public class PlayerController : MonoBehaviour {
 			return false;
 	}
 
+	public void ApplyJumpPhysics()
+	{
+		this.rigidbody2D.AddForce(new Vector2(0, jumpForce));
+	}
+
 	// Update is called once per frame
 	void Update () {
 
@@ -39,6 +46,11 @@ public class PlayerController : MonoBehaviour {
 
 		if(Input.GetButtonDown (JumpButton))
 		{
+			if(playerAnimator.GetBool ("OnFloor") == true)
+			{
+				ApplyJumpPhysics();
+			}
+
 			playerAnimator.SetTrigger("Jump");
 		}
 		else if(Input.GetButtonUp (BlockButton))
@@ -119,7 +131,7 @@ public class PlayerController : MonoBehaviour {
 		{
 			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), 6.0f * Time.deltaTime);
 		}
-		else if(asi.IsName ("Hibiki - Jumping") && playerAnimator.GetBool ("Running") == true )
+		else if((asi.IsName ("Hibiki - Jumping") || asi.IsName ("Hibiki - Jumping Reach Floor")) && playerAnimator.GetBool ("Running") == true )
 		{
 			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), 4.0f * Time.deltaTime);
 		}
