@@ -12,6 +12,8 @@ public class KeiichiroAIController : MonoBehaviour {
 
 	public List<AudioClip> TakeHitVoices;
 
+	public List<GameObject> BloodSprites;
+
 	void OnTriggerEnter2D(Collider2D coll)
 	{
 		if(coll.gameObject.tag == "Player Hit Area")
@@ -23,6 +25,7 @@ public class KeiichiroAIController : MonoBehaviour {
 				audioSrc1.Play();
 				audioSrc2.clip = TakeHitFX;
 				audioSrc2.Play();
+				BloodSprites[Random.Range (0, BloodSprites.Count)].SetActive(true);
 			}
 		}
 	}

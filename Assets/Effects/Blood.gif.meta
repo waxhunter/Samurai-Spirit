@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: a0b978362bfa0d64f9d553f9c2fe2add
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: blood_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 361
+        width: 42
+        height: 31
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 357
+        width: 41
+        height: 38
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 359
+        width: 38
+        height: 35
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 358
+        width: 31
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_5
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 360
+        width: 28
+        height: 35
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 322
+        width: 20
+        height: 22
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 320
+        width: 23
+        height: 28
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 319
+        width: 27
+        height: 31
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 317
+        width: 30
+        height: 29
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 315
+        width: 31
+        height: 30
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_14
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 311
+        width: 36
+        height: 34
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_15
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 308
+        width: 41
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 324
+        width: 13
+        height: 14
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_21
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 270
+        width: 17
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_22
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 270
+        width: 29
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 270
+        width: 30
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 270
+        width: 34
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 269
+        width: 37
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_26
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 267
+        width: 37
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_27
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 267
+        width: 37
+        height: 34
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_28
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 271
+        width: 33
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 172
+        width: 72
+        height: 78
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Blood_32
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 164
+        width: 91
+        height: 89
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Blood_33
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 161
+        width: 99
+        height: 94
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Blood_43
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 88
+        width: 7
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+    - name: Blood_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 33
+        width: 118
+        height: 108
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Blood_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 28
+        width: 122
+        height: 110
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Blood_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 357
+        width: 30
+        height: 39
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_6
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 360
+        width: 28
+        height: 35
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 360
+        width: 28
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Blood_29
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 271
+        width: 31
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_30
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 274
+        width: 34
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Blood_37
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 29
+        width: 118
+        height: 110
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Blood_34
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 157
+        width: 109
+        height: 102
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Blood_35
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 36
+        width: 116
+        height: 105
+      alignment: 8
+      pivot: {x: 1, y: 0}
+  spritePackingTag: 
+  userData: 
