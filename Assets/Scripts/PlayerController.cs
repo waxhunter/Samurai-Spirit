@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour {
 	public string VerticalAxis;
 	
 	public float jumpForce;
+	public float moveSpeed;
+	public float fullSpeedAccelTime;
 
 	public int attackChargeDelay;
 
@@ -90,7 +92,7 @@ public class PlayerController : MonoBehaviour {
 			}
 			else
 			{
-				if(asi.IsName ("Hibiki - Attack1") || asi.IsName ("Hibiki - Attack2") )
+				if(asi.IsName ("Hibiki - Attack1") || asi.IsName ("Hibiki - Attack 2") || asi.IsName ("Hibiki - Attack 2 Sheath") )
 				{
 					playerAnimator.SetBool("Combo", true);
 				}
@@ -121,6 +123,11 @@ public class PlayerController : MonoBehaviour {
 
 		if(asi.IsName ("Hibiki - Running") )
 		{
+			/*if(Mathf.Abs (rigidbody2D.velocity.x) < (moveSpeed - 50))
+				rigidbody2D.AddForce(new Vector2( (moveSpeed * direction * Time.deltaTime * 10) , 0 ));
+			else*/
+
+				//rigidbody2D.velocity = new Vector2((float) ( direction * moveSpeed ), rigidbody2D.velocity.y);
 			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), 4.0f * Time.deltaTime);
 		}
 		else if(asi.IsName ("Hibiki - Running Slash") )

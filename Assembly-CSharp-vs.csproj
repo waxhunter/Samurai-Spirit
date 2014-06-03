@@ -46,12 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GroundCollider.cs" />
-     <Compile Include="Assets\PlayerPhysics.cs" />
+     <Compile Include="Assets\KeichiiroResetAnims.cs" />
      <Compile Include="Assets\Scripts\CameraFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\GroundCollider.cs" />
+     <Compile Include="Assets\Scripts\HitAreasController.cs" />
+     <Compile Include="Assets\Scripts\KeiichiroAIController.cs" />
      <Compile Include="Assets\Scripts\PlayAttackSound.cs" />
      <Compile Include="Assets\Scripts\PlaySounds.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerPhysics.cs" />
      <Compile Include="Assets\Scripts\ResetCombo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
