@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
 public class KeiichiroAIController : MonoBehaviour {
-
+	
 	public AudioSource audioSrc1;
 	public AudioSource audioSrc2;
 	public Animator animCtrl;
@@ -13,6 +13,14 @@ public class KeiichiroAIController : MonoBehaviour {
 	public List<AudioClip> TakeHitVoices;
 
 	public List<GameObject> BloodSprites;
+
+	public GameObject player;
+
+	public GameObject sprite;
+
+	public float spriteAdjustValue;
+
+	int direction = 1;
 
 	void OnTriggerEnter2D(Collider2D coll)
 	{
@@ -42,6 +50,19 @@ public class KeiichiroAIController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if(Mathf.Abs(player.transform.position.x - this.transform.position.x) > spriteAdjustValue)
+		{
+			if(player.transform.position.x > this.transform.position.x && direction == 1)
+			{
+				direction = -1;
+				sprite.transform.localPosition += new Vector3( spriteAdjustValue, 0f, 0f);
+			}
+			else if(player.transform.position.x < this.transform.position.x && direction == -1)
+			{
+				direction = 1;
+				sprite.transform.localPosition -= new Vector3( spriteAdjustValue, 0f, 0f);
+			}
+		}
+		transform.localScale = new Vector3( (float) direction, transform.localScale.y, 0);
 	}
 }

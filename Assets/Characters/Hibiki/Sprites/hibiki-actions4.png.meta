@@ -267,7 +267,7 @@ TextureImporter:
         x: 141
         y: 3837
         width: 71
-        height: 92
+        height: 101
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: hibiki-actions4_27
@@ -276,7 +276,7 @@ TextureImporter:
         x: 225
         y: 3837
         width: 77
-        height: 92
+        height: 101
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: hibiki-actions4_28
@@ -285,7 +285,7 @@ TextureImporter:
         x: 311
         y: 3837
         width: 74
-        height: 94
+        height: 101
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: hibiki-actions4_29
@@ -294,7 +294,7 @@ TextureImporter:
         x: 397
         y: 3837
         width: 71
-        height: 97
+        height: 101
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: hibiki-actions4_30
@@ -303,7 +303,7 @@ TextureImporter:
         x: 486
         y: 3837
         width: 69
-        height: 98
+        height: 99
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: hibiki-actions4_31
@@ -312,7 +312,7 @@ TextureImporter:
         x: 575
         y: 3837
         width: 69
-        height: 98
+        height: 103
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: hibiki-actions4_32
