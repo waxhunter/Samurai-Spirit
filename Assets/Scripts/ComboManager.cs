@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ResetCombo : MonoBehaviour {
+public class ComboManager : MonoBehaviour {
 
 	public Animator animController;
 

@@ -41,6 +41,24 @@ public class PlayerController : MonoBehaviour {
 		this.rigidbody2D.AddForce(new Vector2(0, jumpForce));
 	}
 
+	bool IsAttackingAnim(AnimatorStateInfo asi)
+	{
+		if(asi.IsName ("Hibiki - Attack1") || asi.IsName ("Hibiki - Attack 2") || asi.IsName ("Hibiki - Attack 2 Sheath") || asi.IsName ("Hibiki - Attack 3") || asi.IsName ("Hibiki - Attack 3") || asi.IsName ("Hibiki - Running Slash"))
+		{
+			return true;
+		}
+		else return false;
+	}
+
+	bool IsRunningAnim(AnimatorStateInfo asi)
+	{
+		if(asi.IsName ("Hibiki - Running") || asi.IsName ("Hibiki - StartRunning"))
+		{
+			return true;
+		}
+		else return false;
+	}
+
 	// Update is called once per frame
 	void Update () {
 
@@ -48,7 +66,7 @@ public class PlayerController : MonoBehaviour {
 
 		if(Input.GetButtonDown (JumpButton))
 		{
-			if(playerAnimator.GetBool ("OnFloor") == true)
+			if(playerAnimator.GetBool ("OnFloor") == true && !IsAttackingAnim (asi))
 			{
 				ApplyJumpPhysics();
 			}
@@ -92,13 +110,9 @@ public class PlayerController : MonoBehaviour {
 			}
 			else
 			{
-				if(asi.IsName ("Hibiki - Attack1") || asi.IsName ("Hibiki - Attack 2") || asi.IsName ("Hibiki - Attack 2 Sheath") )
+				if(asi.IsName ("Hibiki - Attack1") || asi.IsName ("Hibiki - Attack 2") || asi.IsName ("Hibiki - Attack 2 Sheath") || asi.IsName ("Hibiki - Idle" ) || asi.IsName ("Hibiki - Running" ))
 				{
 					playerAnimator.SetBool("Combo", true);
-				}
-				else
-				{
-					playerAnimator.SetTrigger("Attack1");
 				}
 			}
 		}
@@ -121,7 +135,7 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 
-		if(asi.IsName ("Hibiki - Running") )
+		if(IsRunningAnim(asi))
 		{
 			/*if(Mathf.Abs (rigidbody2D.velocity.x) < (moveSpeed - 50))
 				rigidbody2D.AddForce(new Vector2( (moveSpeed * direction * Time.deltaTime * 10) , 0 ));

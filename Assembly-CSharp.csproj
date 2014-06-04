@@ -50,13 +50,13 @@
      <Compile Include="Assets\Characters\Enemies\Keiichiro Washizuka\Scripts\KeiichiroAIController.cs" />
      <Compile Include="Assets\ObjectDeactivator.cs" />
      <Compile Include="Assets\Scripts\CameraFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\ComboManager.cs" />
      <Compile Include="Assets\Scripts\GroundCollider.cs" />
      <Compile Include="Assets\Scripts\HitAreasController.cs" />
      <Compile Include="Assets\Scripts\PlayAttackSound.cs" />
      <Compile Include="Assets\Scripts\PlaySounds.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerPhysics.cs" />
-     <Compile Include="Assets\Scripts\ResetCombo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
