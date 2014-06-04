@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour {
 
 	bool IsAttackingAnim(AnimatorStateInfo asi)
 	{
-		if(asi.IsName ("Hibiki - Attack1") || asi.IsName ("Hibiki - Attack 2") || asi.IsName ("Hibiki - Attack 2 Sheath") || asi.IsName ("Hibiki - Attack 3") || asi.IsName ("Hibiki - Attack 3") || asi.IsName ("Hibiki - Running Slash"))
+		if(asi.IsName ("Hibiki - Attack1") || asi.IsName ("Hibiki - Attack 2") || asi.IsName ("Hibiki - Attack 2 Sheath") || asi.IsName ("Hibiki - Attack 3") || asi.IsName ("Hibiki - Attack 3") || asi.IsName ("Hibiki - Running Slash")|| asi.IsName ("Hibiki - Running Slash End"))
 		{
 			return true;
 		}
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour {
 			{
 				playerAnimator.SetBool ("ChargeAttack", true);
 
-				if(MovingHorizontal () && playerAnimator.GetBool("ChargeAttack") == true && !playerAnimator.GetBool ("DashAttack"))
+				if(MovingHorizontal () && playerAnimator.GetBool("ChargeAttack") == true && !IsAttackingAnim(asi) && !playerAnimator.GetBool ("DashAttack"))
 				{
 					direction = Mathf.RoundToInt(Input.GetAxis (HorizontalAxis));
 					playerAnimator.SetTrigger ("DashAttack");
@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour {
 			}
 			else
 			{
-				if(asi.IsName ("Hibiki - Attack1") || asi.IsName ("Hibiki - Attack 2") || asi.IsName ("Hibiki - Attack 2 Sheath") || asi.IsName ("Hibiki - Idle" ) || asi.IsName ("Hibiki - Running" ))
+				if(IsAttackingAnim(asi) || asi.IsName ("Hibiki - Idle" ) || asi.IsName ("Hibiki - Running" ))
 				{
 					playerAnimator.SetBool("Combo", true);
 				}
@@ -123,7 +123,7 @@ public class PlayerController : MonoBehaviour {
 		else
 		{
 
-			if(MovingHorizontal())
+			if(MovingHorizontal() && !IsAttackingAnim(asi))
 			{
 				playerAnimator.SetBool("Running", true);
 				direction = Mathf.RoundToInt(Input.GetAxis (HorizontalAxis));
@@ -146,7 +146,7 @@ public class PlayerController : MonoBehaviour {
 		}
 		else if(asi.IsName ("Hibiki - Running Slash") )
 		{
-			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), 6.0f * Time.deltaTime);
+			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), moveSpeed * 2f * Time.deltaTime);
 		}
 		else if(asi.IsName ("Hibiki - Dash Attack") )
 		{
