@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: e91d3ec92d3bbb846954b0d1190d8b3c
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Dust - Town Objects_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1510
+        width: 496
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1516
+        width: 493
+        height: 303
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_2
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1580
+        width: 532
+        height: 240
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_3
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 1687
+        width: 157
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_4
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 1758
+        width: 225
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_5
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 1630
+        width: 843
+        height: 183
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_6
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 1624
+        width: 133
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_7
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 1626
+        width: 135
+        height: 192
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_8
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1638
+        width: 90
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_9
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 1579
+        width: 167
+        height: 240
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_10
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 1351
+        width: 52
+        height: 469
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_11
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1619
+        width: 147
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_12
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 1294
+        width: 459
+        height: 334
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_13
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1489
+        width: 217
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 1081
+        height: 740
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_15
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 995
+        width: 1235
+        height: 593
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_16
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 1168
+        width: 226
+        height: 243
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_17
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1420
+        width: 100
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_18
+      rect:
+        serializedVersion: 2
+        x: 3641
+        y: 1283
+        width: 43
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_19
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 900
+        width: 603
+        height: 393
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_20
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 1293
+        width: 55
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_21
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 1294
+        width: 45
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_22
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 1172
+        width: 484
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_23
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 1170
+        width: 58
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_24
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 1168
+        width: 77
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_25
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 779
+        width: 212
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_26
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 765
+        width: 300
+        height: 228
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_27
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 780
+        width: 219
+        height: 185
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_28
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 824
+        width: 115
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_29
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 846
+        width: 58
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_30
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 840
+        width: 291
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_31
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 852
+        width: 434
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_32
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 905
+        width: 491
+        height: 262
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_33
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 766
+        width: 113
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_34
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 766
+        width: 141
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_35
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 776
+        width: 233
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_36
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 776
+        width: 210
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 1077
+        height: 754
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_38
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 297
+        width: 923
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_39
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 268
+        width: 375
+        height: 495
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_40
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 335
+        width: 101
+        height: 428
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_41
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 289
+        width: 755
+        height: 473
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_42
+      rect:
+        serializedVersion: 2
+        x: 3253
+        y: 600
+        width: 158
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_43
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 763
+        width: 386
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_44
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 528
+        width: 209
+        height: 234
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_45
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 456
+        width: 96
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_46
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 7
+        width: 200
+        height: 518
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_47
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 303
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_48
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 298
+        width: 60
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_49
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 8
+        width: 119
+        height: 288
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_50
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 11
+        width: 176
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_51
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 8
+        width: 221
+        height: 288
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_52
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 0
+        width: 119
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_53
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 187
+        width: 214
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_54
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 155
+        width: 441
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_55
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 72
+        width: 212
+        height: 195
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_56
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 59
+        width: 319
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_57
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 73
+        width: 219
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_58
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 75
+        width: 147
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Dust - Town Objects_59
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 855
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_60
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 795
+        width: 374
+        height: 363
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_61
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 1417
+        width: 664
+        height: 209
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_62
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 1415
+        width: 81
+        height: 211
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_63
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 1579
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_64
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 764
+        width: 580
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_65
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 364
+        width: 134
+        height: 382
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_66
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 1291
+        width: 34
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_67
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 1632
+        width: 87
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_68
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 1705
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Dust - Town Objects_69
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1592
+        width: 543
+        height: 228
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 

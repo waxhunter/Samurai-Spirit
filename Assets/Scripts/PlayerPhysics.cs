@@ -18,7 +18,7 @@ public class PlayerPhysics : MonoBehaviour {
 		{
 			if(rc.collider != null)
 			{
-				if(rc.collider.gameObject.name == "Stage")
+				if(rc.collider.gameObject.name != "Player")
 				{
 					isOnGround = true;
 					print (rc.collider.name);
