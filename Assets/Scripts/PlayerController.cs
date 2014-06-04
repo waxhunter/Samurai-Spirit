@@ -128,11 +128,11 @@ public class PlayerController : MonoBehaviour {
 			else*/
 
 				//rigidbody2D.velocity = new Vector2((float) ( direction * moveSpeed ), rigidbody2D.velocity.y);
-			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), 4.0f * Time.deltaTime);
+			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), moveSpeed * Time.deltaTime);
 		}
 		else if(asi.IsName ("Hibiki - Running Slash") )
 		{
-			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), 4.0f * Time.deltaTime);
+			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), 6.0f * Time.deltaTime);
 		}
 		else if(asi.IsName ("Hibiki - Dash Attack") )
 		{
