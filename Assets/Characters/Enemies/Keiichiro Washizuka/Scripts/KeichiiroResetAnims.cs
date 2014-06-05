@@ -5,8 +5,13 @@ public class KeichiiroResetAnims : MonoBehaviour {
 
 	public Animator animCtrl;
 
-	public void ResetAnims()
+	public void ResetHitAnim()
 	{
 		animCtrl.SetBool ("Hit Taken", false);
+	}
+
+	public void ResetAttackAnim()
+	{
+		animCtrl.SetBool("Attack", false);
 	}
 }

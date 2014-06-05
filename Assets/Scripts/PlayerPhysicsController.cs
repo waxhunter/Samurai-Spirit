@@ -2,12 +2,29 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class PlayerPhysics : MonoBehaviour {
+public class PlayerPhysicsController : MonoBehaviour {
+
+	public PlayerActionController actionCtrl;
+	public PlayerInputController inputCtrl;
+
+	public float jumpForce;
+	public float moveSpeed;
+	public float fullSpeedAccelTime;
 
 	public bool isOnGround = false;
 	public float groundLineCastCorrector;
 
-	public Animator animCtrl;
+	public int direction = 1;
+
+	public void ApplyJumpPhysics()
+	{
+		this.rigidbody2D.AddForce(new Vector2(0, jumpForce));
+	}
+
+	void setVelocity(float speed)
+	{
+		rigidbody2D.velocity = new Vector2((float) ( direction * speed), rigidbody2D.velocity.y);
+	}
 
 	void Update()
 	{
@@ -33,7 +50,24 @@ public class PlayerPhysics : MonoBehaviour {
 			}
 		}
 
-		animCtrl.SetBool("OnFloor", isOnGround);
+		actionCtrl.SetGround(isOnGround);
+
+		if(actionCtrl.IsRunning())
+			setVelocity(moveSpeed);
+
+		else if(actionCtrl.IsRunningSlash() )
+			setVelocity(moveSpeed * 2f);
+
+		else if(actionCtrl.IsDashAttacking())
+			setVelocity(moveSpeed * 2f);
+
+		else if(actionCtrl.IsJumping() && inputCtrl.MovingHorizontal() )
+			setVelocity(moveSpeed);
+
+		else
+			setVelocity(0f);
+
+		transform.localScale = new Vector3(direction, 1, 1);
 	}
 
 }

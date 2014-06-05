@@ -2,16 +2,16 @@
 using System.Collections;
 
 public class HitAreasController : MonoBehaviour {
-	
-	public GameObject DashAttackHitArea;
+
+	public GameObject referenceObject;
 
 	public void ActivateAttackHitArea(string objname)
 	{
-		GameObject.Find (objname).collider2D.enabled = true;
+		referenceObject.transform.FindChild(objname).collider2D.enabled = true;
 	}
 
 	public void DeactivateAttackHitArea(string objname)
 	{
-		GameObject.Find (objname).collider2D.enabled = false;
+		referenceObject.transform.FindChild(objname).collider2D.enabled = false;
 	}
 }
