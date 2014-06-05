@@ -25,7 +25,7 @@ public class KeiichiroAIController : MonoBehaviour {
 
 	public float spriteAdjustValue;
 
-	int direction = 1;
+	int direction = -1;
 
 	void OnTriggerEnter2D(Collider2D coll)
 	{
@@ -52,6 +52,11 @@ public class KeiichiroAIController : MonoBehaviour {
 	void Start () {
 	
 	}
+
+	void setVelocity(float speed)
+	{
+		rigidbody2D.velocity = new Vector2((float) ( direction * speed ), rigidbody2D.velocity.y);
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -74,23 +79,23 @@ public class KeiichiroAIController : MonoBehaviour {
 		}
 
 		if(animCtrl.GetBool ("Running") == true)
-		{
-			transform.position = Vector3.Lerp (transform.position, new Vector3(transform.position.x + (moveSpeed * -1 * direction), transform.position.y, transform.position.z), 1f * Time.deltaTime);
-		}
+			setVelocity(moveSpeed);
+		else
+			setVelocity(0f);
 
 		if(Mathf.Abs(player.transform.position.x - this.transform.position.x) > spriteAdjustValue)
 		{
-			if(player.transform.position.x > this.transform.position.x && direction == 1)
-			{
-				direction = -1;
-				sprite.transform.localPosition += new Vector3( spriteAdjustValue, 0f, 0f);
-			}
-			else if(player.transform.position.x < this.transform.position.x && direction == -1)
+			if(player.transform.position.x > this.transform.position.x && direction == -1)
 			{
 				direction = 1;
+				sprite.transform.localPosition += new Vector3( spriteAdjustValue, 0f, 0f);
+			}
+			else if(player.transform.position.x < this.transform.position.x && direction == 1)
+			{
+				direction = -1;
 				sprite.transform.localPosition -= new Vector3( spriteAdjustValue, 0f, 0f);
 			}
 		}
-		transform.localScale = new Vector3( (float) direction, transform.localScale.y, 0);
+		transform.localScale = new Vector3( (float) -direction, transform.localScale.y, 0);
 	}
 }

@@ -56,10 +56,10 @@
      <Compile Include="Assets\Scripts\ObjectDeactivator.cs" />
      <Compile Include="Assets\Scripts\PlayAttackSound.cs" />
      <Compile Include="Assets\Scripts\PlaySounds.cs" />
-     <Compile Include="Assets\Scripts\PlayerActionController.cs" />
-     <Compile Include="Assets\Scripts\PlayerAudioController.cs" />
-     <Compile Include="Assets\Scripts\PlayerInputController.cs" />
-     <Compile Include="Assets\Scripts\PlayerPhysicsController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerActionController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAudioController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerInputController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerPhysicsController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
