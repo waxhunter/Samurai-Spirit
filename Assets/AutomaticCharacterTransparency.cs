@@ -25,19 +25,17 @@ public class AutomaticCharacterTransparency : MonoBehaviour {
 	{
 		if(other.gameObject.tag == "Player" && !isTransparent)
 		{
-			print ("enter");
 			fadeTransparency = TRANSPARENCY_IN;
 			isTransparent = true;
 			keepTransparent = true;
 		}
 	}
 
-	void OnTriggerStay2D(Collider2D other)
+	void OnTriggerExit2D(Collider2D other)
 	{
 		if(other.gameObject.tag == "Player" && isTransparent)
 		{
-			print ("stayinh.");
-			keepTransparent = true;
+			keepTransparent = false;
 		}
 	}
 
@@ -91,11 +89,5 @@ public class AutomaticCharacterTransparency : MonoBehaviour {
 			}
 		}
 
-	}
-
-	void LateUpdate()
-	{
-		print ("exit");
-		keepTransparent = false;
 	}
 }

@@ -59,6 +59,11 @@ public class PlayerController : MonoBehaviour {
 		else return false;
 	}
 
+	void setVelocity(float speed)
+	{
+		rigidbody2D.velocity = new Vector2((float) ( direction * speed), rigidbody2D.velocity.y);
+	}
+
 	// Update is called once per frame
 	void Update () {
 
@@ -137,24 +142,23 @@ public class PlayerController : MonoBehaviour {
 
 		if(IsRunningAnim(asi))
 		{
-			/*if(Mathf.Abs (rigidbody2D.velocity.x) < (moveSpeed - 50))
-				rigidbody2D.AddForce(new Vector2( (moveSpeed * direction * Time.deltaTime * 10) , 0 ));
-			else*/
-
-				//rigidbody2D.velocity = new Vector2((float) ( direction * moveSpeed ), rigidbody2D.velocity.y);
-			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), moveSpeed * Time.deltaTime);
+			setVelocity(moveSpeed);
 		}
 		else if(asi.IsName ("Hibiki - Running Slash") )
 		{
-			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), moveSpeed * 2f * Time.deltaTime);
+			setVelocity(moveSpeed * 2f);
 		}
 		else if(asi.IsName ("Hibiki - Dash Attack") )
 		{
-			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), 6.0f * Time.deltaTime);
+			setVelocity(moveSpeed * 2f);
 		}
 		else if((asi.IsName ("Hibiki - Jumping") || asi.IsName ("Hibiki - Jumping Reach Floor")) && playerAnimator.GetBool ("Running") == true )
 		{
-			transform.position = Vector3.MoveTowards(transform.position, transform.position + (new Vector3(0.25f * direction, 0f, 0f)), 4.0f * Time.deltaTime);
+			setVelocity(moveSpeed);
+		}
+		else
+		{
+			setVelocity(0f);
 		}
 
 		transform.localScale = new Vector3(direction, 1, 1);
