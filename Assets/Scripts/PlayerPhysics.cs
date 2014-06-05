@@ -24,10 +24,9 @@ public class PlayerPhysics : MonoBehaviour {
 			{
 				if(rc.collider != null)
 				{
-					if(rc.collider.gameObject.name != "Player")
+					if(rc.collider.gameObject.name != "Player" && !rc.collider.isTrigger && !Physics2D.GetIgnoreLayerCollision(rc.collider.gameObject.layer, this.gameObject.layer))
 					{
 						isOnGround = true;
-						print (rc.collider.name);
 					}
 				}
 
