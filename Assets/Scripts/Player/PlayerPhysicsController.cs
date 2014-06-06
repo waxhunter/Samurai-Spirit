@@ -2,29 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class PlayerPhysicsController : MonoBehaviour {
+public class PlayerPhysicsController : PhysicsController {
 
 	public PlayerActionController actionCtrl;
 	public PlayerInputController inputCtrl;
 
-	public float jumpForce;
-	public float moveSpeed;
 	public float fullSpeedAccelTime;
 
 	public bool isOnGround = false;
 	public float groundLineCastCorrector;
-
-	public int direction = 1;
-
-	public void ApplyJumpPhysics()
-	{
-		this.rigidbody2D.AddForce(new Vector2(0, jumpForce));
-	}
-
-	void setVelocity(float speed)
-	{
-		rigidbody2D.velocity = new Vector2((float) ( direction * speed), rigidbody2D.velocity.y);
-	}
 
 	void Update()
 	{

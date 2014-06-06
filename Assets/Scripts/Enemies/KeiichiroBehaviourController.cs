@@ -2,16 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class KeiichiroAIController : MonoBehaviour {
-	
+public class KeiichiroBehaviourController : MonoBehaviour {
+
+	public KeiichiroActionController actionCtrl;
+	public KeiichiroPhysicsController physicsCtrl;
+
 	public AudioSource audioSrc1;
 	public AudioSource audioSrc2;
-	public Animator animCtrl;
 
 	public float chasingDistance;
 	public float attackRange;
-
-	public float moveSpeed;
 
 	public AudioClip TakeHitFX;
 
@@ -25,15 +25,13 @@ public class KeiichiroAIController : MonoBehaviour {
 
 	public float spriteAdjustValue;
 
-	int direction = -1;
-
 	void OnTriggerEnter2D(Collider2D coll)
 	{
 		if(coll.gameObject.tag == "Player Hit Area")
 		{
-			if(animCtrl.GetBool ("Hit Taken") == false)
+			if(!actionCtrl.IsPerformingAction("Hit Taken"))
 			{
-				animCtrl.SetBool ("Hit Taken", true);
+				actionCtrl.PerformAction("Hit Taken");
 				audioSrc1.clip = TakeHitVoices[Random.Range (0, TakeHitVoices.Count)];
 				audioSrc1.Play();
 				audioSrc2.clip = TakeHitFX;
@@ -53,49 +51,41 @@ public class KeiichiroAIController : MonoBehaviour {
 	
 	}
 
-	void setVelocity(float speed)
-	{
-		rigidbody2D.velocity = new Vector2((float) ( direction * speed ), rigidbody2D.velocity.y);
-	}
+
 	
 	// Update is called once per frame
 	void Update () {
 
-		//
 		float distanceToPlayer = Vector2.Distance(player.transform.position, this.transform.position);
 
-		if(distanceToPlayer < chasingDistance && distanceToPlayer > attackRange && animCtrl.GetBool ("Attack") == false)
+		if(distanceToPlayer < chasingDistance && distanceToPlayer > attackRange && !actionCtrl.IsAttacking())
 		{
-			animCtrl.SetBool ("Running", true);
+			actionCtrl.PerformRun();
 		}
 		else
 		{
-			animCtrl.SetBool ("Running", false);
+			actionCtrl.StopRun ();
 
-			if(distanceToPlayer <= attackRange && animCtrl.GetBool ("Attack") == false)
+			if(distanceToPlayer <= attackRange && !actionCtrl.IsAttacking())
 			{
-				animCtrl.SetBool ("Attack", true);
+				actionCtrl.PerformAttack();
 			}
 		}
 
-		if(animCtrl.GetBool ("Running") == true)
-			setVelocity(moveSpeed);
-		else
-			setVelocity(0f);
+
 
 		if(Mathf.Abs(player.transform.position.x - this.transform.position.x) > spriteAdjustValue)
 		{
-			if(player.transform.position.x > this.transform.position.x && direction == -1)
+			if(player.transform.position.x > this.transform.position.x && physicsCtrl.direction == -1)
 			{
-				direction = 1;
+				physicsCtrl.direction = 1;
 				sprite.transform.localPosition += new Vector3( spriteAdjustValue, 0f, 0f);
 			}
-			else if(player.transform.position.x < this.transform.position.x && direction == 1)
+			else if(player.transform.position.x < this.transform.position.x && physicsCtrl.direction == 1)
 			{
-				direction = -1;
+				physicsCtrl.direction = -1;
 				sprite.transform.localPosition -= new Vector3( spriteAdjustValue, 0f, 0f);
 			}
 		}
-		transform.localScale = new Vector3( (float) -direction, transform.localScale.y, 0);
 	}
 }
