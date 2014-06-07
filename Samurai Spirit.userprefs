@@ -1,20 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraFollowPlayer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ProjectileBehaviour.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player\PlayerPhysicsController.cs" Line="93" Column="160" />
+      <File FileName="Assets\ProjectileBehaviour.cs" Line="18" Column="25" />
+      <File FileName="Assets\Scripts\Player\PlayerPhysicsController.cs" Line="97" Column="164" />
       <File FileName="Assets\Scripts\Enemies\KeiichiroActionController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\PlayerActionController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerPhysicsController.cs" Line="93" Column="160" />
       <File FileName="Assets\Scripts\Enemies\KeiichiroEffectsController.cs" Line="1" Column="1" />
-      <File FileName="Assets\HitArea.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemies\KeiichiroPhysicsController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\PlayerInputController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemies\KeiichiroBehaviourController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemies\KeiichiroStatusController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\HitAreasController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PhysicsController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CameraFollowPlayer.cs" Line="43" Column="36" />
+      <File FileName="Assets\Scripts\CameraFollowPlayer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

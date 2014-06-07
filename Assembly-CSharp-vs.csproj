@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\HitArea.cs" />
+     <Compile Include="Assets\ProjectileBehaviour.cs" />
      <Compile Include="Assets\Scripts\ActionController.cs" />
      <Compile Include="Assets\Scripts\AudioController.cs" />
      <Compile Include="Assets\Scripts\AutomaticCharacterTransparency.cs" />
