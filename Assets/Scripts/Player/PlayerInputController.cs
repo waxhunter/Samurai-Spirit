@@ -42,7 +42,7 @@ public class PlayerInputController : MonoBehaviour {
 		else if(Input.GetButtonUp (AttackButton))
 			actionCtrl.PerformAttack ();
 
-		else if(MovingHorizontal())
+		if(MovingHorizontal())
 			actionCtrl.PerformMovement(Mathf.RoundToInt(Input.GetAxis (HorizontalAxis)));
 
 		else

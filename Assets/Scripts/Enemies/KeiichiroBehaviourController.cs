@@ -6,61 +6,35 @@ public class KeiichiroBehaviourController : MonoBehaviour {
 
 	public KeiichiroActionController actionCtrl;
 	public KeiichiroPhysicsController physicsCtrl;
-
-	public AudioSource audioSrc1;
-	public AudioSource audioSrc2;
-
+	
 	public float chasingDistance;
 	public float attackRange;
 
-	public AudioClip TakeHitFX;
-
-	public List<AudioClip> TakeHitVoices;
-
-	public List<GameObject> BloodSprites;
+	public bool chasePlayer;
+	public bool attackPlayer;
 
 	public GameObject player;
-
-	public GameObject sprite;
-
-	public float spriteAdjustValue;
 
 	void OnTriggerEnter2D(Collider2D coll)
 	{
 		if(coll.gameObject.tag == "Player Hit Area")
 		{
-			if(!actionCtrl.IsPerformingAction("Hit Taken"))
-			{
-				actionCtrl.PerformAction("Hit Taken");
-				audioSrc1.clip = TakeHitVoices[Random.Range (0, TakeHitVoices.Count)];
-				audioSrc1.Play();
-				audioSrc2.clip = TakeHitFX;
-				audioSrc2.Play();
-				BloodSprites[Random.Range (0, BloodSprites.Count)].SetActive(true);
-			}
+			HitArea area = coll.gameObject.GetComponent<HitArea>();
+			actionCtrl.TakeHit(coll.gameObject, area.damage, area.stagger, area.knockback);
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D coll)
 	{
-
 	}
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-
-
-	
-	// Update is called once per frame
 	void Update () {
 
 		float distanceToPlayer = Vector2.Distance(player.transform.position, this.transform.position);
 
 		if(distanceToPlayer < chasingDistance && distanceToPlayer > attackRange && !actionCtrl.IsAttacking())
 		{
-			actionCtrl.PerformRun();
+			if(chasePlayer) actionCtrl.PerformRun();
 		}
 		else
 		{
@@ -68,23 +42,21 @@ public class KeiichiroBehaviourController : MonoBehaviour {
 
 			if(distanceToPlayer <= attackRange && !actionCtrl.IsAttacking())
 			{
-				actionCtrl.PerformAttack();
+				if(attackPlayer) actionCtrl.PerformAttack();
 			}
 		}
 
 
 
-		if(Mathf.Abs(player.transform.position.x - this.transform.position.x) > spriteAdjustValue)
+		if(Mathf.Abs(player.transform.position.x - this.transform.position.x) > physicsCtrl.spriteAdjustValue)
 		{
 			if(player.transform.position.x > this.transform.position.x && physicsCtrl.direction == -1)
 			{
-				physicsCtrl.direction = 1;
-				sprite.transform.localPosition += new Vector3( spriteAdjustValue, 0f, 0f);
+				actionCtrl.FaceDirection(1);
 			}
 			else if(player.transform.position.x < this.transform.position.x && physicsCtrl.direction == 1)
 			{
-				physicsCtrl.direction = -1;
-				sprite.transform.localPosition -= new Vector3( spriteAdjustValue, 0f, 0f);
+				actionCtrl.FaceDirection(-1);
 			}
 		}
 	}

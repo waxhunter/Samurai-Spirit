@@ -1554,7 +1554,7 @@ TextureImporter:
         x: 93
         y: 1410
         width: 76
-        height: 90
+        height: 93
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: hibiki-actions4_229
@@ -1563,7 +1563,7 @@ TextureImporter:
         x: 177
         y: 1410
         width: 88
-        height: 84
+        height: 88
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: hibiki-actions4_230
@@ -1572,7 +1572,7 @@ TextureImporter:
         x: 272
         y: 1410
         width: 88
-        height: 84
+        height: 89
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: hibiki-actions4_231

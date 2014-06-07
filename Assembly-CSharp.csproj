@@ -46,15 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HitArea.cs" />
      <Compile Include="Assets\Scripts\ActionController.cs" />
      <Compile Include="Assets\Scripts\AudioController.cs" />
      <Compile Include="Assets\Scripts\AutomaticCharacterTransparency.cs" />
      <Compile Include="Assets\Scripts\CameraFollowPlayer.cs" />
      <Compile Include="Assets\Scripts\ComboManager.cs" />
-     <Compile Include="Assets\Scripts\Enemies\KeichiiroResetAnims.cs" />
+     <Compile Include="Assets\Scripts\EffectActivator.cs" />
+     <Compile Include="Assets\Scripts\EffectsController.cs" />
      <Compile Include="Assets\Scripts\Enemies\KeiichiroActionController.cs" />
      <Compile Include="Assets\Scripts\Enemies\KeiichiroBehaviourController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\KeiichiroEffectsController.cs" />
      <Compile Include="Assets\Scripts\Enemies\KeiichiroPhysicsController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\KeiichiroStatusController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\ResetAnims.cs" />
      <Compile Include="Assets\Scripts\GroundCollider.cs" />
      <Compile Include="Assets\Scripts\HitAreasController.cs" />
      <Compile Include="Assets\Scripts\ObjectDeactivator.cs" />
@@ -63,6 +68,7 @@
      <Compile Include="Assets\Scripts\PlaySounds.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerActionController.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAudioController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerEffectsController.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerInputController.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerPhysicsController.cs" />
   </ItemGroup>

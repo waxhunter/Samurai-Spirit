@@ -7,7 +7,10 @@ public class HitAreasController : MonoBehaviour {
 
 	public void ActivateAttackHitArea(string objname)
 	{
-		referenceObject.transform.FindChild(objname).collider2D.enabled = true;
+
+		Transform hitArea = referenceObject.transform.FindChild(objname);
+		print (hitArea.gameObject.name);
+		hitArea.gameObject.collider2D.enabled = true;
 	}
 
 	public void DeactivateAttackHitArea(string objname)

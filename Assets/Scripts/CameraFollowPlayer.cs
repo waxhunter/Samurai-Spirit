@@ -14,9 +14,11 @@ public class CameraFollowPlayer : MonoBehaviour {
 	public GameObject player;
 	Vector3 camtarget;
 
+	PlayerPhysicsController physicsCtrl;
+
 	// Use this for initialization
 	void Awake() {
-
+		physicsCtrl = player.GetComponent<PlayerPhysicsController>();
 	}
 
 	void Start () {
@@ -25,23 +27,25 @@ public class CameraFollowPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		Vector3 campos = this.transform.position;
 		Vector3 playerpos = player.transform.position;
-		camtarget = new Vector3(playerpos.x + cameraXOffset, campos.y, campos.z);
-		if(camtarget.x > cameraMinXBound && camtarget.x < cameraMaxXBound) transform.position = Vector3.Lerp(campos, camtarget, 0.05f * Vector3.Distance (campos, camtarget));
-
-		float pToCamDiff = (player.transform.position.y - transform.position.y);
-		if(Mathf.Abs (pToCamDiff) > cameraYDeadZone)
+		camtarget = new Vector3(playerpos.x + (cameraXOffset * physicsCtrl.direction), campos.y, campos.z);
+		if(camtarget.x > cameraMinXBound && camtarget.x < cameraMaxXBound) 
 		{
-			campos = this.transform.position;
-			if(pToCamDiff > 0)
-			{
-				transform.position = Vector3.Lerp(campos, new Vector3(campos.x, playerpos.y + (pToCamDiff - cameraYDeadZone), campos.z), 0.025f * Mathf.Abs (campos.y - playerpos.y));
-			}
-			else if(pToCamDiff < 0)
-			{
-				transform.position = Vector3.Lerp(campos, new Vector3(campos.x, playerpos.y - (pToCamDiff + cameraYDeadZone), campos.z), 0.025f * Mathf.Abs (campos.y - playerpos.y));
-			}
+			float lerpSpeed = physicsCtrl.moveSpeed / 100;
+			transform.position = Vector3.Lerp(campos, camtarget, lerpSpeed * Vector3.Distance (campos, camtarget));
+		}
+
+
+		//float pToCamDiff = Mathf.Abs (((player.transform.position.y + cameraYOffset) - transform.position.y));
+		Vector3 pos = this.camera.WorldToViewportPoint(player.transform.position);
+		if(pos.y > (cameraYDeadZone + 0.5) || pos.y < (-cameraYDeadZone + 0.5))
+		{
+		campos = this.transform.position;
+		float lerpSpeedY = 0.01f + Mathf.Abs (physicsCtrl.gameObject.rigidbody2D.velocity.y) / 200;
+			
+		transform.position = Vector3.Lerp(campos, new Vector3(campos.x, playerpos.y, campos.z), lerpSpeedY);
 		}
 	}
 }

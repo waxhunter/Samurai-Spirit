@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerActionController : MonoBehaviour {
 
@@ -8,14 +9,36 @@ public class PlayerActionController : MonoBehaviour {
 	public PlayerInputController inputCtrl;
 	public PlayerPhysicsController physicsCtrl;
 
-	public int attackChargeDelay;
+	public int attackChargeDelayInMs;
 	int attackChargePressTime = 0;
+
+	public string idleAnim;
+	public string blockingAnim;
+	public List<string> attackingAnims;
+	public List<string> runningAnims;
+	public List<string> takeHitAnims;
+	public string deathAnim;
+	public string fallAnim;
+	public string runningSlashAnim;
+	public string dashAttackAnim;
+	public string jumpingAnim;
 
 	public bool IsIdle()
 	{
 		AnimatorStateInfo asi = animCtrl.GetCurrentAnimatorStateInfo(0);
 		
-		if(asi.IsName ("Hibiki - Idle"))
+		if(asi.IsName (idleAnim))
+		{
+			return true;
+		}
+		else return false;
+	}
+
+	public bool IsBlocking()
+	{
+		AnimatorStateInfo asi = animCtrl.GetCurrentAnimatorStateInfo(0);
+		
+		if(asi.IsName (blockingAnim))
 		{
 			return true;
 		}
@@ -26,29 +49,35 @@ public class PlayerActionController : MonoBehaviour {
 	{
 		AnimatorStateInfo asi = animCtrl.GetCurrentAnimatorStateInfo(0);
 
-		if(asi.IsName ("Hibiki - Attack1") || asi.IsName ("Hibiki - Attack 2") || asi.IsName ("Hibiki - Attack 2 Sheath") || asi.IsName ("Hibiki - Attack 3") || asi.IsName ("Hibiki - Attack 3") || asi.IsName ("Hibiki - Running Slash")|| asi.IsName ("Hibiki - Running Slash End"))
+		foreach(string anim in attackingAnims)
 		{
-			return true;
+			if(asi.IsName (anim))
+			{
+				return true;
+			}
 		}
-		else return false;
+		return false;
 	}
 	
 	public bool IsRunning()
 	{
 		AnimatorStateInfo asi = animCtrl.GetCurrentAnimatorStateInfo(0);
 
-		if(asi.IsName ("Hibiki - Running") || asi.IsName ("Hibiki - StartRunning"))
+		foreach(string anim in runningAnims)
 		{
-			return true;
+			if(asi.IsName (anim))
+			{
+				return true;
+			}
 		}
-		else return false;
+		return false;
 	}
 
 	public bool IsRunningSlash()
 	{
 		AnimatorStateInfo asi = animCtrl.GetCurrentAnimatorStateInfo(0);
 		
-		if(asi.IsName ("Hibiki - Running Slash"))
+		if(asi.IsName (runningSlashAnim))
 		{
 			return true;
 		}
@@ -59,7 +88,7 @@ public class PlayerActionController : MonoBehaviour {
 	{
 		AnimatorStateInfo asi = animCtrl.GetCurrentAnimatorStateInfo(0);
 		
-		if(asi.IsName ("Hibiki - Dash Attack"))
+		if(asi.IsName (dashAttackAnim))
 		{
 			return true;
 		}
@@ -70,16 +99,38 @@ public class PlayerActionController : MonoBehaviour {
 	{
 		AnimatorStateInfo asi = animCtrl.GetCurrentAnimatorStateInfo(0);
 		
-		if(asi.IsName ("Hibiki - Jumping"))
+		if(asi.IsName (jumpingAnim))
 		{
 			return true;
 		}
 		else return false;
 	}
 
+	public bool IsTakingHit()
+	{
+		AnimatorStateInfo asi = animCtrl.GetCurrentAnimatorStateInfo(0);
+		
+		foreach(string anim in takeHitAnims)
+		{
+			if(asi.IsName (anim))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	public void TakeHit()
+	{
+		if(!IsBlocking() && !IsTakingHit())
+		{
+			animCtrl.SetBool ("Hit Taken 1", true);
+		}
+	}
+
 	public void PerformJump()
 	{
-		if(animCtrl.GetBool ("OnFloor") == true && !IsAttacking ())
+		if(animCtrl.GetBool ("OnFloor") == true && !IsAttacking () && !IsBlocking())
 		{
 			physicsCtrl.ApplyJumpPhysics();
 		}
@@ -102,22 +153,25 @@ public class PlayerActionController : MonoBehaviour {
 
 	public void PerformAttackCharge(int direction)
 	{
-		if(attackChargePressTime < attackChargeDelay)
+		if(!IsRunning())
 		{
-			attackChargePressTime += (int) (1000f * Time.deltaTime);
-		}
-		else
-		{
-			animCtrl.SetBool ("ChargeAttack", true);
-			
-			if(inputCtrl.MovingHorizontal () && animCtrl.GetBool("ChargeAttack") == true && !IsAttacking() && !animCtrl.GetBool ("DashAttack"))
+			if(attackChargePressTime < attackChargeDelayInMs)
 			{
-				physicsCtrl.direction = direction;
-				animCtrl.SetTrigger ("DashAttack");
+				attackChargePressTime += (int) (1000f * Time.deltaTime);
 			}
 			else
 			{
-				animCtrl.SetBool ("DashAttack", false);
+				animCtrl.SetBool ("ChargeAttack", true);
+				
+				if(inputCtrl.MovingHorizontal () && animCtrl.GetBool("ChargeAttack") == true && !IsAttacking() && !animCtrl.GetBool ("DashAttack"))
+				{
+					physicsCtrl.direction = direction;
+					animCtrl.SetTrigger ("DashAttack");
+				}
+				else
+				{
+					animCtrl.SetBool ("DashAttack", false);
+				}
 			}
 		}
 	}
@@ -140,7 +194,7 @@ public class PlayerActionController : MonoBehaviour {
 
 	public void PerformMovement(int direction)
 	{
-		if(!IsAttacking())
+		if(!IsAttacking() && !IsTakingHit ())
 		{
 			animCtrl.SetBool("Running", true);
 			physicsCtrl.direction = direction;
